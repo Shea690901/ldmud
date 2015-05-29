@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/data/data/com.pdaxrom.cctools/root/cctools/bin/sh -vx
 
 # Create the patchlevel.h file from patchlevel.h.in
 # Create the patchlevel.h from the information in version.sh

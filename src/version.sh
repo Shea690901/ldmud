@@ -18,7 +18,7 @@ version_tagger=`git log --pretty=format:"%an <%ae>" -1 $TAGNAME`
 version_revision=`git describe --match 3.*`
 
 # if source not tagged with 3.*, it is no release, but development
-if $( echo $version_revision | grep --quiet '-' ) ;then
+if $( echo $version_revision | grep '-' > /dev/null ) ;then
   version_type="dev"
   version_longtype="development"
 else
