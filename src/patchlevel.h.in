@@ -32,6 +32,4 @@
 
 #define LOCAL_LEVEL ""
 
-#define PACKAGE_URL ""
-
 #endif /* PATCHLEVEL_H__ */
